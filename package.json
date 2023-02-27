@@ -1,0 +1,22 @@
+{
+  "name": "mern-todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \" npm start\" \" npm run client\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drumil32/MERN-Todo-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drumil32/MERN-Todo-App/issues"
+  },
+  "homepage": "https://github.com/drumil32/MERN-Todo-App#readme"
+}
